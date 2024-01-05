@@ -1,0 +1,24 @@
+{
+    "name": "dd-trace-js",
+    "version": "1.0.0",
+    "description": "Service that uses an api to log in a user",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon -L --inspect=0.0.0.0 index.js"
+    },
+    "engines": {
+        "node": ">=18.18.0",
+        "npm": ">=9.8.1",
+        "mongodb": "^4.17.1"
+    },
+    "author": "Amy Ziring",
+    "dependencies": {
+        "@hapi/hapi": "^20.2.2",
+        "dd-trace": "~4.13.1",
+        "mongodb": "^6.3.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
